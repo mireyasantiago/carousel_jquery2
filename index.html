@@ -3,8 +3,68 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
+    <section class="container ">
+      <section class="row">
+        <div class="col s12 center">
+          <h2 class="">Carousel</h2>
+          <h4>"Desarrollo de carrusel con jQuery y materialize"</h4>
+        </div>
+      </section>
+    </section>
+
+    <!-- area de carrusel  con jquery       --------->
+    <main class="container">
+      <section class="row">
+        <section class="col s12 ">
+          <div class="carousel center " >
+            <div data-slide="0" class="carousel-content active">
+              <img src="assets/img/caballo2.jpg" alt="Imagen 1">
+      		  </div>
+      		  <div data-slide="1" class="carousel-content ">
+      			  <img src="assets/img/pez.jpg" alt="Imagen 2">
+      		  </div>
+      		  <div data-slide="2" class="carousel-content ">
+      			  <img src="assets/img/mar1.jpg" alt="Imagen 3">
+      		  </div>
+      		  <div data-slide="3" class="carousel-content ">
+      			  <img src="assets/img/rock.jpg" alt="Imagen 4">
+      		  </div>
+            <div data-slide="4" class="carousel-content ">
+      			  <img src="assets/img/mar.jpg" alt="Imagen 5">
+      		  </div>
+
+            <div class="controls ">
+              <a href="#" class="previous">
+                <i class="material-icons"> grade</i>
+              </a>
+              <button type="button" data-target="0" class="control tamaño__boton "></button>
+      		    <button type="button" data-target="1" class="control tamaño__boton"></button>
+      		    <button type="button" data-target="2" class="control tamaño__boton"></button>
+      		    <button type="button" data-target="3" class="control tamaño__boton"></button>
+              <button type="button" data-target="4" class="control tamaño__boton"></button>
+      		    <a href="#" class="next">
+                <i class="material-icons"> grade</i>
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+
+
+
+
+
+
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
 
   </body>
 </html>

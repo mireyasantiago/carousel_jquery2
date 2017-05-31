@@ -1,0 +1,32 @@
+.carousel-content {
+	display: none;
+}
+
+.carousel-content.active {
+	display: block;
+}
+
+
+.tamaño__carousel {
+	width: 55%;
+	height: 55%;
+}
+
+#slider {
+position: relative;
+overflow: hidden;
+width: 500px;
+height: 300px;
+border:5px solid #A52A2A;
+border-radius: 20px;
+margin: 0 auto;
+padding: 0;
+}
+
+.tamaño__boton {
+	border:5px solid #A52A2A;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px
+
+}
